@@ -1,0 +1,61 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+h2{
+  text-align: center;
+}
+
+.formulario {
+  color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #186F65;
+}
+
+.registration-form {
+  width: 300px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  background-color: #272829;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 3px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.mandar{
+  text-align: center;
+}
+
+button {
+  background-color: #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  color: black;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  color: white;
+  background-color: #0d3a35;
+}
